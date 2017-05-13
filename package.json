@@ -1,0 +1,25 @@
+{
+  "name": "wata727.github.io",
+  "private": true,
+  "repository": "git@github.com:wata727/wata727.github.io.git",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint ./src"
+  },
+  "devDependencies": {
+    "webpack": "^2.5.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
