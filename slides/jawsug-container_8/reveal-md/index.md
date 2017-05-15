@@ -61,6 +61,8 @@ $ drunker --concurrency=3 application:latest rspec FILES
 
 # DEMO
 
+<video src="drunker-demo.mov" autoplay></video>
+
 ---
 
 # 知見
