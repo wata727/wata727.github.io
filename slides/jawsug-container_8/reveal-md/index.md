@@ -48,13 +48,13 @@ Kazuma Watanabe (@wata727)
 Docker imageとコマンドを指定するだけ
 
 ```
-$ drunker application:latest rspec
+$ drunker run application:latest rspec
 ```
 
 concurrencyを設定すれば並列で実行
 
 ```
-$ drunker --concurrency=3 application:latest rspec FILES
+$ drunker run --concurrency=3 application:latest rspec FILES
 ```
 
 ---
