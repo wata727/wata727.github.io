@@ -9539,9 +9539,26 @@ var _reactDom = __webpack_require__(80);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Root = _react2.default.createElement(
-  'a',
-  { href: 'slides/jawsug-container_8' },
-  'Slides'
+  'div',
+  null,
+  _react2.default.createElement(
+    'p',
+    null,
+    _react2.default.createElement(
+      'a',
+      { href: 'slides/jawsug-container_8' },
+      'JAWS-UG \u30B3\u30F3\u30C6\u30CA\u652F\u90E8#8'
+    )
+  ),
+  _react2.default.createElement(
+    'p',
+    null,
+    _react2.default.createElement(
+      'a',
+      { href: 'slides/go-beginners-lt_2' },
+      'Go\u8A00\u8A9ELT\u5927\u4F1A'
+    )
+  )
 );
 
 (0, _reactDom.render)(Root, document.querySelector('#root'));

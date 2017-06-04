@@ -1,0 +1,6 @@
+{
+  "title": "GoとLintのおいしい関係 Go言語LT大会",
+  "theme": "white",
+  "css": "custom.css",
+  "static": "../"
+}
